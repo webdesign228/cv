@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Абильдин Еламан — Резюме</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--accent:#0f62fe;--muted:#6b7280;--card:#ffffff;--edge:#f3f4f6}
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial; background:linear-gradient(180deg,#ffffff 0%, #ffffff 60%, #fbfcfd 100%);color:#111}
+    .container{max-width:950px;margin:36px auto;padding:32px;background:linear-gradient(180deg,#ffffff, #fbfdff);border-radius:14px;box-shadow:0 10px 30px rgba(17,24,39,0.08);border:1px solid rgba(15,23,42,0.04);display:grid;grid-template-columns:1fr 320px;gap:28px}
+    header{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between}
+    .name{display:flex;gap:18px;align-items:center}
+    .avatar{width:86px;height:86px;border-radius:14px;background:linear-gradient(135deg,var(--accent),#6b5cff);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:22px;box-shadow:0 6px 18px rgba(15,98,254,0.12)}
+    h1{margin:0;font-size:22px}
+    .subtitle{color:var(--muted);font-size:13px}
+    .summary{background:var(--edge);padding:18px;border-radius:10px;border:1px solid rgba(15,23,42,0.03)}
+    .section{background:var(--card);padding:20px;border-radius:10px;border:1px solid rgba(15,23,42,0.03)}
+    .muted{color:var(--muted);font-size:13px}
+    .tag{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(15,98,254,0.08);color:var(--accent);font-weight:600;font-size:13px}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{padding:8px 10px;border-radius:8px;background:#f8fafc;border:1px solid rgba(15,23,42,0.03);font-size:13px}
+    .list{margin:0;padding:0;list-style:none}
+    .list li{padding:10px 0;border-bottom:1px dashed rgba(15,23,42,0.04)}
+    .job-meta{font-size:13px;color:var(--muted)}
+    .contact{font-size:14px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600;border:1px solid rgba(15,23,42,0.06)}
+    footer{grid-column:1/-1;text-align:center;color:var(--muted);font-size:13px;margin-top:6px}
+    @media (max-width:880px){.container{grid-template-columns:1fr; padding:20px} .avatar{width:72px;height:72px} .name{flex-direction:column;align-items:flex-start}}
+  </style>
+</head>
+<body>
+  <main class="container" role="main">
+    <header>
+      <div class="name">
+        <div class="avatar">ЕА</div>
+        <div>
+          <h1>Абильдин Еламан</h1>
+          <div class="subtitle">Студент 3 курса бакалавриата — «Преподаватель информатики», Astana International University</div>
+        </div>
+      </div>
+      <div style="text-align:right">
+        <div class="tag">Английский — C2</div>
+        <div style="height:8px"></div>
+        <div class="muted">Казахский — родной • Русский — свободный</div>
+      </div>
+    </header>
+
+    <!-- Main column -->
+    <section>
+      <div class="section summary">
+        <h3 style="margin-top:0;margin-bottom:8px">Краткое описание</h3>
+        <p class="muted">Энтузиастичный и адаптивный преподаватель с опытом преподавания углубленной химии, подготовки к международным экзаменам (IELTS, SAT Reasoning), а также опытом работы в продажах. Прохожу обучение на степени бакалавра по направлению «Преподаватель информатики». Обладаю сильными навыками коммуникации, разработки учебных материалов и ведения занятий как в онлайн-, так и в офлайн-формате. Умею создавать структурированные учебные планы, повышающие мотивацию и успеваемость студентов.</p>
+      </div>
+
+      <div style="height:18px"></div>
+
+      <div class="section">
+        <h3 style="margin-top:0">Ключевые навыки</h3>
+        <div class="skills" style="margin-top:12px">
+          <div class="skill">Проектирование уроков и учебных модулей</div>
+          <div class="skill">Обучение в классе и онлайн</div>
+          <div class="skill">Подготовка к IELTS и SAT</div>
+          <div class="skill">Оценка и обратная связь студентам</div>
+          <div class="skill">HTML, CSS, базовый JavaScript</div>
+          <div class="skill">Основы Python</div>
+          <div class="skill">Коммуникация и презентации</div>
+          <div class="skill">Продажи и работа с клиентами</div>
+          <div class="skill">Билингвальное обучение</div>
+        </div>
+      </div>
+
+      <div style="height:18px"></div>
+
+      <div class="section">
+        <h3 style="margin-top:0">Опыт преподавания</h3>
+        <ul class="list" style="margin-top:12px">
+          <li>
+            <div style="display:flex;justify-content:space-between;align-items:center">
+              <strong>Частный преподаватель — углубленная химия и экзамены</strong>
+              <div class="job-meta">2022 — н.в.</div>
+            </div>
+            <div class="muted" style="margin-top:6px">Разрабатывал индивидуальные учебные программы для старшеклассников и абитуриентов. Создавал материалы, пробные тесты и планы подготовки для повышения результатов студентов.</div>
+          </li>
+
+          <li>
+            <div style="display:flex;justify-content:space-between;align-items:center">
+              <strong>Преподаватель IELTS и SAT</strong>
+              <div class="job-meta">2021 — н.в.</div>
+            </div>
+            <div class="muted" style="margin-top:6px">Проводил групповые и индивидуальные занятия по стратегиям экзаменов, тайм-менеджменту и развитию навыков в чтении, письме и reasoning. Помогал студентам достигать целевых баллов.</div>
+          </li>
+
+          <li>
+            <div style="display:flex;justify-content:space-between;align-items:center">
+              <strong>Менеджер по продажам и консультант</strong>
+              <div class="job-meta">2019 — 2022</div>
+            </div>
+            <div class="muted" style="margin-top:6px">Работал в сфере продаж: консультирование клиентов, презентация продуктов, выявление потребностей. Опыт продаж помог улучшить навыки набора и удержания студентов.</div>
+          </li>
+        </ul>
+      </div>
+
+      <div style="height:18px"></div>
+
+      <div class="section">
+        <h3 style="margin-top:0">Проекты и достижения</h3>
+        <ul class="list" style="margin-top:12px">
+          <li>
+            <strong>Учебный модуль: введение в программирование для 7–9 классов</strong>
+            <div class="muted">Разработал модульную программу, включающую практические задания, основы Python и элементы алгоритмического мышления.</div>
+          </li>
+          <li>
+            <strong>Серия мастер-классов по подготовке к экзаменам</strong>
+            <div class="muted">Создал и проводил интенсивные занятия по IELTS writing/speaking. Участники отмечали рост уверенности и улучшение результатов.</div>
+          </li>
+          <li>
+            <strong>Система отслеживания прогресса студентов (прототип)</strong>
+            <div class="muted">Создал прототип таблицы для отслеживания выполнения заданий, результатов тестов и динамики успеваемости.</div>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+
+    <!-- Right column -->
+    <aside>
+      <div class="section contact">
+        <h3 style="margin-top:0">Контакты</h3>
+        <p style="margin:6px 0">Email: <a href="mailto:yelaman.abildin@example.com">yelaman.abildin@example.com</a></p>
+        <p style="margin:6px 0">Телефон: +7 (700) 000-0000</p>
+        <p style="margin:6px 0">Локация: Астана, Казахстан</p>
+        <div style="height:8px"></div>
+        <a class="btn" href="mailto:yelaman.abildin@example.com">Написать</a>
+      </div>
+
+      <div style="height:18px"></div>
+
+      <div class="section">
+        <h3 style="margin-top:0">Образование</h3>
+        <div style="margin-top:8px">
+          <strong>Astana International University</strong>
+          <div class="muted">Бакалавриат «Преподаватель информатики» — 3 курс (ожидаемое окончание: 2026)</div>
+        </div>
+        <div style="margin-top:12px">
+          <strong>Изучаемые дисциплины</strong>
+          <div class="muted">Педагогика, управление классом, основы программирования, алгоритмы, методика обучения информатике, разработка оценочных средств.</div>
+        </div>
+      </div>
+
+      <div style="height:18px"></div>
+
+      <div class="section">
+        <h3 style="margin-top:0">Языки</h3>
+        <p class="muted" style="margin:8px 0">Казахский — родной</p>
+        <p class="muted" style="margin:8px 0">Английский — C2</p>
+        <p class="muted" style="margin:8px 0">Русский — свободный</p>
+      </div>
+
+      <div style="height:18px"></div>
+
+      <div class="section">
+        <h3 style="margin-top:0">Инструменты и технологии</h3>
+        <div class="muted">Microsoft Office • Google Workspace • Базовый HTML/CSS • Основы Python • Zoom и Google Meet • LMS платформы</div>
+      </div>
+
+      <div style="height:18px"></div>
+
+      <div class="section">
+        <h3 style="margin-top:0">Интересы и волонтёрство</h3>
+        <div class="muted">Образовательные проекты, наставничество, изучение edtech, репетиторство, самообразование в веб-разработке и педагогике.</div>
+      </div>
+
+    </aside>
+
+    <footer>
+      <div>Сгенерировано — одностраничное резюме для размещения на любом статичном хостинге (Netlify, GitHub Pages, Vercel)</div>
+    </footer>
+  </main>
+</body>
+</html>
